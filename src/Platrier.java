@@ -33,7 +33,7 @@ public class Platrier extends Thread {
 
                 // 2. Travailler
                 System.out.println(getName() + " (Plâtrier) commence : " + p.getNom());
-                Thread.sleep(10000); // Simulation du travail du platrier
+                Thread.sleep(2000); // Simulation du travail du platrier
 
                 p.setPlatree(true);
                 System.out.println(getName() + " (Plâtrier) a fini : " + p.getNom());

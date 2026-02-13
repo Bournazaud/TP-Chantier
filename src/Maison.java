@@ -45,7 +45,7 @@ public class Maison {
             mutex.acquire();
             p = aFairePlatre.poll();
             mutex.release();
-        } catch (InterruptedException e) {e.printStackTrace();}
+        } catch (InterruptedException e) {/*e<.printStackTrace();*/}
         return p;
     }
 }

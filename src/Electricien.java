@@ -26,7 +26,7 @@ public class Electricien extends Thread {
             // On travaille
             System.out.println(getName() + " (Electricien) commence : " + p.getNom());
             try {
-                Thread.sleep(5000); // On fait attendre pour simuler le travail
+                Thread.sleep(2000); // On fait attendre pour simuler le travail
             }catch (InterruptedException e){e.printStackTrace();}
             System.out.println(getName() + " (Electricien) a fini : " + p.getNom());
 
